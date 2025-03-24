@@ -1,13 +1,15 @@
 html,
- body{
+body {
     height: 100%;
 }
+
 body {
- background-image: url(imagens/fundo.avif);
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
- background-position:right bottom;
+    background-image: url(imagens/fundo.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+    
     margin: 0;
     padding: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,8 +25,9 @@ body {
 .main-title {
     color: #385555;
 }
-.list{
- 
+
+.list {
+
     width: 90%;
     max-width: 960px;
     display: flex;
@@ -32,9 +35,10 @@ body {
     justify-content: center;
     gap: 16px;
     list-style-type: none;
-    
+
 }
-.list-item{
+
+.list-item {
 
     flex-basis: 280px;
     background-color: white;
@@ -45,17 +49,20 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.list-item__imagem img{
+
+.list-item__imagem img {
     border-radius: 50%;
     width: 80px;
     margin-top: 120px;
 }
-.list-item__name{
+
+.list-item__name {
     margin: 0;
     font-size: 24px;
-color: #385555;
+    color: #385555;
 }
-.list-item__action{
+
+.list-item__action {
     display: flex;
     background-color: #e5e5e5;
     justify-content: space-evenly;
